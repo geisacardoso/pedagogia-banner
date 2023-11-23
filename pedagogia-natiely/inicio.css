@@ -1,0 +1,71 @@
+.container{
+    position: fixed;
+    margin: 8vh;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.curso{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 4vh 0vh;
+}
+
+.proj-integrador{
+    color: #208DC5;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+img{
+    margin: 4vh 0vh;
+    width: 40vh;
+    height: 40vh;
+}
+
+a{
+    text-decoration: none !important;
+    color: #208DC5 !important;
+}
+
+.text{
+    text-align: justify !important;
+}
+
+
+.btn{
+    width: 80% !important;
+    height: 6% !important;
+    border-radius: 8px;
+    border: 1px solid #208DC5 !important;
+    
+}
+
+.btn:hover:active{
+    color: white !important;
+    background-color: #208DC5 !important;
+}
+
+
+.logo {
+    position: relative;
+    margin-bottom: 10vh;
+}
+
+.logo-1, .logo-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

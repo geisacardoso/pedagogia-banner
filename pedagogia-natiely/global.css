@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin:0;
+    word-wrap: break-word;
+    scroll-behavior: smooth;  /*dentro do * quer dizer pra tudo na página usar isso de padrão; scroll-behavior é o comportamento de rolagem, smooth é suavizado*/
+}
+
+body{
+   background-color: #FBFBFF;
+}
+
+.t{
+    justify-self: start;
+}
+
+.m{
+ width: 600px;
+}
+
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:800px){
+   
+    
+    .t{
+        justify-self: start;
+    }
+    
+    .m{
+     width: 600px;
+    }
+    
+    .bi-feather{
+        display: none;
+    }
+    
+    .md{
+        width: 600px;
+        display: none;
+    }
+    
+    ul{
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        padding: 0px;
+    }
+
+    .btn-mapa{
+        width: 30vw !important;
+        border-radius: 40px;
+        height: 4vw;
+    }
+
+    .introducao, .publico-alvo, .justificativa, .professoras{
+        margin-top: 8vh;
+    }
+
+
+    .carousel{
+        width: 30%;
+        margin-top: 10vw;
+        margin-left: 8vw;
+    }
+
+    .ajuste-margin{
+        margin-top: -4vw;
+    }
+
+    .icon-objetivos{
+    padding: 16px 32px;
+    border-radius: 100%;
+    border: 1px solid #D8D4E4;
+    font-size: 64px;
+    color: #208DC5;
+    }
+    
+    .linha{
+        padding: 2vw;
+    }
+
+    .ativ-pc{
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .btn-ativ{
+        width: 50% !important;
+    }
+
+    .title-recursos{
+        margin-top: -40px;
+    }
+
+    .recursos-didaticos{
+        
+        text-align: center;
+        justify-content: center;   
+    }   
+
+    .code{
+        width: 30% !important;
+    }
+
+    .p-code{
+        text-align: center;
+    }
+
+    .logo{
+        margin-right: 4vw;
+    }
+
+    .body-home{
+        margin: -2vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    .introducao{
+        width: 50%;
+        margin-bottom: -0vw;
+        justify-content: center;
+    }
+
+    .publico-alvo{
+        width: 50%;
+        margin-bottom: -0vw;
+
+    }
+
+    .justificativa{
+        width: 50%;
+        margin-bottom: -0vw;
+    }
+
+    .title-prof{
+        font-size: 24px;
+    }
+    
+    .professoras{
+       display: inline;
+       text-align: center;
+    }
+
+    .ajuste-prof{
+        justify-content: flex-start;
+    }
+
+    iframe{
+        height: 400px !important;
+        width: 60% !important;
+    }
+
+    .info-prof{
+        display: flex;
+        justify-content: center;
+        height: 20vw;
+    }
+
+    .title-pc{
+        margin-left: -6vw;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .ajuste-pc{
+        display: flex;
+    }
+
+
+}
