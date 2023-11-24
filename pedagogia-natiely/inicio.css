@@ -8,6 +8,19 @@
     text-align: center;
 }
 
+.body-inicio{
+    display: flex;
+    justify-content: center;
+    max-width: auto;
+}
+
+@media screen and (min-width:800px){
+    .logo{
+        margin-left: 4vw;
+    }
+    
+}
+
 .curso{
     color: #000;
     text-align: center;
