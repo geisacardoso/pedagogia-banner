@@ -201,6 +201,10 @@ a{
         width:100%;
     }
 
+    .code{
+        width: 80% !important;
+    }
+
     .geral{
         width: 100%;
         height: 8vh;
