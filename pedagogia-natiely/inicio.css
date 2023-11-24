@@ -70,7 +70,7 @@ a{
     
 }
 
-.btn:hover:active{
+.btn:active{
     color: white !important;
     background-color: #208DC5 !important;
 }
