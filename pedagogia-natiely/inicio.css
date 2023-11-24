@@ -18,6 +18,10 @@
     .logo{
         margin-left: 4vw;
     }
+
+    .btn{
+        margin-top: -40px;
+    }
     
 }
 
@@ -74,7 +78,6 @@ a{
 
 .logo {
     position: relative;
-    margin-bottom: 4vw;
 }
 
 .logo-1, .logo-2 {
