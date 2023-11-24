@@ -39,8 +39,10 @@ a{
      width: 600px;
     }
     
-    .bi-feather{
+    .bi-feather, .col-2{
         display: none;
+        width: 0px;
+        columns: 0;
     }
     
     .md{
@@ -151,6 +153,10 @@ a{
     .professoras{
        display: inline;
        text-align: center;
+    }
+
+    .perfil-prof{
+        margin-left: 8vw;
     }
 
     .ajuste-prof{

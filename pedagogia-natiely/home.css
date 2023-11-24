@@ -193,6 +193,21 @@ a{
 #menuMobile{
     display:none;
 }
+
+@media screen and (min-width:800px){
+    .profs{
+        width: 10%;
+        margin-right: 6vw;
+    }
+    .foto-professores{
+        height: 10% !important;
+    }
+
+    .info-prof{
+        height: 20px !important;
+    }
+    
+}
 @media screen and (min-width:320px) and (max-width:767px){  /* configura os estilos quando celular*/
     body{
         width:100%;

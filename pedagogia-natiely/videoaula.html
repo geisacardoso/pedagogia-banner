@@ -106,16 +106,16 @@
         <div id="carouselExampleRide" class="carousel slide ativ-pc" data-bs-ride="true">
           <div class="carousel-inner d-flex justify-content-center">
             <div class="carousel-item active w-75 mx-auto">
-              <img src="/assets/recursos-didaticos-1.png" class="d-block w-100" alt="...">
+              <img src="assets/recursos-didaticos-1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item w-75 mx-auto">
-              <img src="/assets/recursos-didaticos-2.png" class="d-block w-100" alt="...">
+              <img src="assets/recursos-didaticos-2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item w-75 mx-auto">
-              <img src="/assets/recursos-didaticos-3.png" class="d-block w-100" alt="...">
+              <img src="assets/recursos-didaticos-3.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item w-75 mx-auto">
-              <img src="/assets/recursos-didaticos-4.png" class="d-block w-100" alt="...">
+              <img src="assets/recursos-didaticos-4.png" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -157,23 +157,18 @@
 
 <script>
     document.getElementById('downloadButton').addEventListener('click', function() {
-      // URL do PDF que você quer disponibilizar para download
-      var pdfUrl = '/assets/atividades.pdf';
 
-      // Cria um elemento <a> temporário
+      var pdfUrl = 'assets/atividades.pdf';
+
       var link = document.createElement('a');
       link.href = pdfUrl;
 
-      // Atribui o nome do arquivo ao atributo "download"
       link.download = 'atividades.pdf';
 
-      // Adiciona o elemento <a> ao corpo do documento
       document.body.appendChild(link);
 
-      // Simula um clique no link para iniciar o download
       link.click();
 
-      // Remove o elemento <a> do corpo do documento
       document.body.removeChild(link);
     });
   </script>
